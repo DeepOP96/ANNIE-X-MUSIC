@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Specify where to get the following credentials
 OWNER_USERNAME = getenv("OWNER_USERNAME", "DipXD")
 BOT_USERNAME = getenv("BOT_USERNAME", "SONAxMUSIC_BOT")
-BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
+BOT_NAME = getenv("BOT_NAME", "˹𝐒ᴏɴᴀ˼ ✘ ˹𝐌ᴜsɪᴄ˼")
 ASSUSERNAME = getenv("ASSUSERNAME", "musicXannie")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -112,4 +112,4 @@ if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
-        )
+)
